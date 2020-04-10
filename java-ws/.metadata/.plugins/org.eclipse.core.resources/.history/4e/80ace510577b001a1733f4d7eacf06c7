@@ -1,0 +1,29 @@
+package de.tobi.breadthfirstsearch;
+
+public class BFSApp {
+
+	public static void main(String[] args) {
+		Vertex<String> va = new Vertex<>("A");
+		Vertex<String> vb = new Vertex<>("B");
+		Vertex<String> vc = new Vertex<>("C");
+		Vertex<String> vd = new Vertex<>("D");
+		Vertex<String> ve = new Vertex<>("E");
+		Vertex<String> vf = new Vertex<>("F");
+		Vertex<String> vg = new Vertex<>("G");
+		Vertex<String> vh = new Vertex<>("H");
+		
+		va.addNeigh(vb);
+		va.addNeigh(vf);
+		va.addNeigh(vg);
+		vb.addNeigh(vc);
+		vb.addNeigh(vd);
+		vd.addNeigh(ve);
+		vg.addNeigh(vh);
+		ve.addNeigh(va);
+		
+		BFS<String> bfs = new BFS<>();
+		bfs.bfs(va);
+
+	}
+
+}

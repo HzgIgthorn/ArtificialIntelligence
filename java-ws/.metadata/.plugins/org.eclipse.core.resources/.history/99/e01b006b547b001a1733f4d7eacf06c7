@@ -1,0 +1,21 @@
+package de.tobi.breadthfirstsearch;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class BFS {
+
+	public void bfs(Vertex root) {
+		Queue<Vertex> queue = new LinkedList<Vertex>();
+		root.setVisited(true);
+		
+		while(!queue.isEmpty()) {
+			Vertex aktVertex = queue.remove();
+			System.out.println("visit -> "+aktVertex);
+			aktVertex.getNeighList().stream().filter(v -> !v.isVisited()).forEach(v -> {v.setVisited(true); queue.add(v);});
+		}
+	}
+	
+	
+
+}

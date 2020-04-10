@@ -1,0 +1,5 @@
+package de.tobi.depthfirstsearch;
+
+public class DFS {
+
+}

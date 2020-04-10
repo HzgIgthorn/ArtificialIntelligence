@@ -1,0 +1,14 @@
+package de.tobi.depthfirstsearch;
+
+import de.tobi.breadthfirstsearch.Graph;
+
+public class DFSApp {
+
+	public static void main(String[] args) {
+		Graph graph = new Graph();
+		
+		new DFS<String>(graph.getVertexes());
+
+	}
+
+}

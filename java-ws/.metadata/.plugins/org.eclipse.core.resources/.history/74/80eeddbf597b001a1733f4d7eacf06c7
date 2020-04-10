@@ -1,0 +1,10 @@
+package de.tobi.depthfirstsearch;
+
+public class DFSApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
