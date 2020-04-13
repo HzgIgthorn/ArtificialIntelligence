@@ -1,2 +1,6 @@
 1586540525540	Delete element
 1586543416851	Rename local variable 'queue'
+1586633220411	Delete element
+1586637877130	Rename method 'namhattenHeuristic'
+1586639095975	Rename type 'AStarApp'
+1586641520437	Rename local variable 'norList'
