@@ -4,7 +4,6 @@ import java.text.DecimalFormat;
 
 public class HillClimbing {
 	private static final double START_X = -1;
-	private static final double END_X = 2;
 	private static final double DELTA = 0.1;
 	
 	private final static DecimalFormat DDF = new DecimalFormat("###.###");
