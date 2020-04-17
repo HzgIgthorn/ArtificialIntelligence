@@ -1,6 +1,0 @@
-INDEX VERSION 1.131+C:\udemy\JavaUdemyAI\git-ws\java-ws\.metadata\.plugins\org.eclipse.jdt.core
-2701218542.index
-416661536.index
-3734859983.index
-1968916930.index
-3823822362.index
