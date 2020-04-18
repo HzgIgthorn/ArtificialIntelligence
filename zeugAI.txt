@@ -1,0 +1,2 @@
+http://www.fooplot.com				homepage für 2d-Funktionen
+https://academo.org/demos/3d-surface-plotter/		homepage für 3d-Funktionen

@@ -10,6 +10,8 @@ public interface Constants {
 	static int TOURN_SIZE = 5;
 	static int CHROMO_LENGTH = 10;
 	static int MAX_FITNESS = 10;
+	static int SIM_LENGTH = 100;
+	static int GENE_LENGTH = 10;
 	
 	static Random RAND = new Random();
 }
