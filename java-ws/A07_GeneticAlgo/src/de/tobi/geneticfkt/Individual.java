@@ -5,6 +5,7 @@ import de.tobi.geneticalgo.Constants;
 public class Individual implements Constants{
 	
 	private int[] genes;
+	@SuppressWarnings("unused")
 	private int fitness;
 	
 	public Individual() {
