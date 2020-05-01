@@ -1,2 +1,5 @@
-http://www.fooplot.com				homepage für 2d-Funktionen
-https://academo.org/demos/3d-surface-plotter/		homepage für 3d-Funktionen
+http://www.fooplot.com						homepage für 2d-Funktionen
+https://academo.org/demos/3d-surface-plotter/				homepage für 3d-Funktionen
+http://archive.ics.uci.edu/ml/datasets/Iris				homepate für Neuronale Netze
+https://github.com/eclipse/deeplearning4j-examples.git			Repo für deeplearning4j
+http://www.globalsoftwaresupport.com/optimization-algorithms-deep-learning/	Homepage für Neuronale Netsoptimierung

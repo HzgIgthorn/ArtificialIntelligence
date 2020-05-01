@@ -6,7 +6,7 @@ public class ActivationFkt {
 		return (float) (1/(1+Math.exp(-x)));
 	}
 	
-	public static float dSigmoid(float x) {
-		return x*(1-x);
+	public static float dSigmoid(float s) {
+		return s*(1-s);
 	}
 }

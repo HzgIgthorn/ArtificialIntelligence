@@ -27,6 +27,7 @@ public class Layer implements Constants{
 	public float[] run(float[] inputArray) {
 		System.arraycopy(inputArray, 0, input, 0, inputArray.length);
 		
+		//Input der Bias Knoten werden auf 1 gesetzt
 		input[input.length - 1] = 1;
 		int offset = 0;
 		
@@ -40,7 +41,6 @@ public class Layer implements Constants{
 			output[i] = ActivationFkt.sigmoid(output[i]);
 			offset += input.length;
 		}
-		
 		return Arrays.copyOf(output, output.length);
 	}
 	
@@ -55,12 +55,17 @@ public class Layer implements Constants{
 				nextError[j] = nextError[j]+weights[weightIndex]*delta;
 				//input[j] * delta ist der Gradient
 				float dw = input[j] * delta * learningRate;
-				//dWeights[weightIndex] ind die Gewichte aus der vorigen Iteration
+				//dWeights[weightIndex] sind die Gewichte aus der vorigen Iteration
 				weights[weightIndex] += dWeights[weightIndex] * momentum + dw;
 				
 				dWeights[weightIndex] = dw;
 			}
+			offset += input.length;
 		}
 		return nextError;
+	}
+
+	public float[] getWeights() {
+		return weights;
 	}
 }
