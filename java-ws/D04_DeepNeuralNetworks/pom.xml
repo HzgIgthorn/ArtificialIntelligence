@@ -4,7 +4,7 @@
   <artifactId>D04_DeepNeuralNetworks</artifactId>
   <version>1.0.0</version>
   <properties>
-  	<depp_version>0.9.2</depp_version>
+  	<depp_version>0.9.1</depp_version>
   </properties>
   <build>
     <sourceDirectory>src</sourceDirectory>

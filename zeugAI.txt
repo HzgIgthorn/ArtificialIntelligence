@@ -4,3 +4,4 @@ http://archive.ics.uci.edu/ml/datasets/Iris				homepate für Neuronale Netze
 https://github.com/eclipse/deeplearning4j-examples.git			Repo für deeplearning4j
 http://www.globalsoftwaresupport.com/optimization-algorithms-deep-learning/	Homepage für Neuronale Netsoptimierung
 https://www.cs.ryerson.ca/~aharley/vis/conv/flat.html			Homepage für Deep Learning
+https://ai.stanford.edu/~amaas/data/sentiment/				Datensatz für imdb

@@ -72,18 +72,28 @@
 		    <artifactId>deeplearning4j-core</artifactId>
 		    <version>${depp_version}</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-native-platform -->
-		<dependency>
-		    <groupId>org.nd4j</groupId>
-		    <artifactId>nd4j-native-platform</artifactId>
-		    <version>${depp_version}</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-nlp -->
+		<!--https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-nlp-->
 		<dependency>
 		    <groupId>org.deeplearning4j</groupId>
 		    <artifactId>deeplearning4j-nlp</artifactId>
 		    <version>${depp_version}</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-native-platform-->
+		<dependency>
+		    <groupId>org.nd4j</groupId>
+		    <artifactId>nd4j-native-platform</artifactId>
+		    <version>${depp_version}</version>
+		</dependency><!-- 
+        <dependency>
+            <groupId>org.nd4j</groupId>
+            <artifactId>nd4j-cuda-7.5-platform</artifactId>
+            <version>${depp_version}</version>
+        </dependency>
+		<dependency>
+        <groupId>org.nd4j</groupId>
+	        <artifactId>nd4j-cuda-8.0-platform</artifactId>
+	        <version>${depp_version}</version>
+	    </dependency> -->
 		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
 		<dependency>
 		    <groupId>org.slf4j</groupId>
@@ -96,5 +106,11 @@
 		    <artifactId>log4j</artifactId>
 		    <version>1.2.17</version>
 		</dependency>
+		        <!-- Used for downloading data in some of the examples -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.3.5</version>
+        </dependency>
   </dependencies>
 </project>
